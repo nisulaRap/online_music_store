@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	min-width: 350px;
+	margin:0px;
+	padding: 0px;
+	background-image: url("../images/about.jpg");
+	object-fit: cover;
+	background-size: cover;
+}
+
+.content{
+	display: grid;
+  	place-items: center;
+}
+
+.paraPart{
+	border: 1px solid white;
+  	border-radius: 10px;
+  	background-color: white;
+  	margin-top: 20px;
+  	width: 650px;
+  	text-align: center;
+  	padding: 0px 10px 20px 10px;
+  	margin-bottom: 20px;
+}
+
+.head1{
+	font-family: Cooper Black;
+	font-size: 30px;
+}
+
+.head2{
+	text-align: left;
+	font-family: Bodoni MT Black;
+	font-size: 26px;
+	font-style: italic;
+	color: darkgray;
+}
+
+.para1{
+	font-size: 16px;
+	font-family: Chaparral Pro Light;
+	text-align: left;
+	font-weight: bold;
+}
